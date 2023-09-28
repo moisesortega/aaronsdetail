@@ -42,7 +42,7 @@ Variables
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
-  --clr-secondary: hsla(182, 63%, 54%);
+  --clr-secondary: rgb(243, 115, 115);
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
@@ -332,6 +332,10 @@ header {
 .title span {
   color: var(--clr-secondary);
 }
+.bodytext {
+  text-align: center;
+}
+
 #about,
 #services,
 #tours {

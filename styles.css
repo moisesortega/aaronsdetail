@@ -170,7 +170,7 @@ p {
 }
 /* section */
 .section {
-  padding-bottom: 5rem;
+  padding-bottom: 1.5rem;
 }
 
 .section img {
@@ -329,6 +329,12 @@ header {
   .container p {
     max-width: 40rem;
   }
+
+  .package-card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px
+  }
 }
 /* sections, title  */
 .title h2 {
@@ -346,6 +352,7 @@ header {
   height: 80vh;
 }
 #services {
+  height: auto;
   background: var(--clr-white);
 }
 #about img {
@@ -404,7 +411,7 @@ footer p {
 
 #aligntext {
   text-align: center;
-  margin-top: 20px
+  margin-top: 5px;
 }
 
 /* Package card container */
@@ -413,7 +420,7 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
 }
 
 .package-card {
@@ -477,4 +484,55 @@ footer p {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+/* Contact Container */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact form styles */
+.contact-form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
 }

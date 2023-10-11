@@ -488,9 +488,9 @@ footer p {
 
 /* Contact Container */
 .contact-container {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.8rem;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -514,7 +514,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -524,9 +524,9 @@ textarea {
 }
 
 .submit-button {
-  background-color: #007bff;
+  background-color: #ff7777;
   color: #fff;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -534,5 +534,68 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #ff0000;
+}
+
+/* Social media bar */
+.social-media-bar {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+.social-media-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px; /* Adjust spacing between items */
+  text-align: center;
+  padding: 10px; /* Add padding around each item */
+  border-radius: 5px; /* Add rounded corners for each item */
+  height: 90px;
+}
+
+.social-media-item p {
+  margin-top: 5px; /* Adjust spacing between image and text */
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+#instagram {
+  background-image: url('./instagram-icon.png'); /* Replace with your image URL */
+  background-size: cover; /* Adjust how the background image is displayed */
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  transition: transform 0.3s ease;
+}
+
+#mail {
+  background-image: url('./mail-icon.png'); /* Replace with your image URL */
+  background-size: cover; /* Adjust how the background image is displayed */
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  transition: transform 0.3s ease;
+}
+
+#phone {
+  background-image: url('./phone-icon.png'); /* Replace with your image URL */
+  background-size: cover; /* Adjust how the background image is displayed */
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  transition: transform 0.3s ease;
+}
+
+#instagram:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+
+}
+
+#mail:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+
+}
+
+#phone:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+
 }
